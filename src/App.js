@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Car from './components/Car';
+import Cars from './components/Cars';
 import carData from './db.json';
 
 class App extends Component {
@@ -20,7 +20,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello</h1>
+        {/* Search bar */}
+
+        {/* Filters */}
+
+        {/* Data display */}
+        <Cars data={ this.state.carData } />
       </div>
     );
   }
