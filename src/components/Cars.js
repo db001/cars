@@ -17,6 +17,7 @@ class Cars extends Component {
               images={ ele.displayImage }
               make={ ele.vehicleCapDetails.presentationMake }
               model={ ele.vehicleCapDetails.presentationRange }
+              headline={ ele.attentionGrabber }
               derivative={ ele.vehicleCapDetails.capDerivativeName }
               description = { ele.autotraderDescription }
             />

@@ -23,6 +23,7 @@ class Car extends Component {
           <div className="carTitles">
             <h2>{ car.make } { car.model }</h2>
             <h5>{ car.derivative }</h5>
+            <p><em>{ car.headline }</em></p>
           </div>
         </div>
         <p>{ car.description }</p>
